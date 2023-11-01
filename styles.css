@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  border: 3px solid green;
+  background-color: rgb(73, 145, 73);
+  padding: 2rem;
+  color: white;
+}
+
+.column {
+  display: flex;
+  gap: 1rem;
+}
+
+#reset-btn, #save-btn, #increment-btn {
+  flex-basis: 33%;
+  border: 0;
+  background-color: white;
+  color: green;
+  font-size: 1rem;
+}
+
+#reset-btn:hover, #save-btn:hover, #increment-btn:hover {
+  background-color: lightgray;
+}
+
+#reset-btn:active, #save-btn:active, #increment-btn:active {
+  color: lightgreen;
+}
